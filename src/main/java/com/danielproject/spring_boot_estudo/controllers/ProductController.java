@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ProductController {
 
     @GetMapping
-    public ResponseEntity getAllProducts() {
+    public ResponseEntity<String> getAllProducts() {
         return ResponseEntity.ok("Deu bom");
     }
     
